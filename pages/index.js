@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Profile from '../react_challenges/describing_ui/Porfile'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,7 +16,7 @@ export default function Home() {
           Welcome to Chefo's and Peter's React challenges page!
         </h1>
 
-
+      <Profile />
 
 
       </main>
