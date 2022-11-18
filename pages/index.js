@@ -1,7 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Profile from '../react_challenges/describing_ui/Porfile'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import Profile from '../react_challenges/describing_ui/Profile';
+import Gallery from '../react_challenges/adding_interactivity/state_comp_memory/Gallery';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,8 +18,8 @@ export default function Home() {
           Welcome to Chefo's and Peter's React challenges page!
         </h1>
 
-      <Profile />
-
+      {/* <Profile /> */}
+      <Gallery />
 
       </main>
 
