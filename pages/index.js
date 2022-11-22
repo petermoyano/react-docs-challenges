@@ -1,8 +1,11 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import Profile from '../react_challenges/describing_ui/Profile';
-import Gallery from '../react_challenges/adding_interactivity/state_comp_memory/Gallery';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Profile from "../react_challenges/describing_ui/Profile";
+import Gallery from "../react_challenges/adding_interactivity/state_comp_memory/Gallery";
+import List from "../react_challenges_Paula/describing-the-UI/rendering-lists/List";
+import RecipeList from "../react_challenges_Paula/describing-the-UI/rendering-lists/RecipeList";
+import Poem from "../react_challenges_Paula/describing-the-UI/rendering-lists/Poem";
 
 export default function Home() {
   return (
@@ -18,9 +21,13 @@ export default function Home() {
           Welcome to Chefo's and Peter's React challenges page!
         </h1>
 
-      {/* <Profile /> */}
-      <Gallery />
+        {/* <Profile /> */}
 
+        {/*<Gallery />*/}
+        {/*<List/>*/}
+        <Poem />
+
+        <RecipeList />
       </main>
 
       <footer className={styles.footer}>
@@ -29,12 +36,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
