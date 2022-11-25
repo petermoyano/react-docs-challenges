@@ -6,6 +6,8 @@ const poem = {
   ],
 };
 
+//////// challenge 4 /////////
+
 export default function Poem() {
   return (
     <article>
@@ -20,4 +22,4 @@ export default function Poem() {
     </article>
   );
 }
-//// keys trouble 
+//// not getting the key idea 

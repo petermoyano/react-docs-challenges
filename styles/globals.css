@@ -24,3 +24,46 @@ a {
     background: black;
   }
 }
+
+.night{
+  color: blue;
+}
+
+.day{
+  color: wheat
+}
+
+.toggle{
+  border: 0.2px white solid;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+ 
+}
+.profile-box{
+
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.header{
+  text-align: center;
+}
+.avatar{
+  border-radius: 50%;
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+}
+

@@ -1,5 +1,8 @@
-import Recipe from "../../Recipe";
+import Recipe from "./Recipe";
 import { recipes } from "./recipesData";
+
+
+/////// challenge 3 /////////
 
 export default function RecipeList() {
   const list = recipes.map((recipe) => (
