@@ -6,6 +6,10 @@ import Gallery from "../react_challenges/adding_interactivity/state_comp_memory/
 import List from "../react_challenges_Paula/describing-the-UI/rendering-lists/List";
 import RecipeList from "../react_challenges_Paula/describing-the-UI/rendering-lists/RecipeList";
 import Poem from "../react_challenges_Paula/describing-the-UI/rendering-lists/Poem";
+import Clock from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/Clock";
+import ProfileList from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/ProfileList";
+import CollapseDiv from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/CollapseDiv";
+import StoryTray from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/StoryTray";
 
 export default function Home() {
   return (
@@ -22,12 +26,20 @@ export default function Home() {
         </h1>
 
         {/* <Profile /> */}
-
         {/*<Gallery />*/}
         {/*<List/>*/}
-        <Poem />
-
-        <RecipeList />
+        {/* <Poem />
+        <RecipeList /> 
+        <Clock /> 
+        <ProfileList />*/}
+        <Clock />
+        <StoryTray
+          stories={[
+            { id: "Mike", label: "story" },
+            { id: "Daniel", label: "story" },
+            { id: "Daiana", label: "story" },
+          ]}
+        />
       </main>
 
       <footer className={styles.footer}>
