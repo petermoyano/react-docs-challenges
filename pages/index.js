@@ -3,6 +3,9 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Profile from '../react_challenges/describing_ui/Profile';
 import Gallery from '../react_challenges/adding_interactivity/state_comp_memory/Gallery';
+import LightSwitch from '../react-challenges-paula/adding-interactivity/LightSwitch';
+import ColorSwitch from '../react-challenges-paula/adding-interactivity/ColorSwitch';
+import Counter from '../react-challenges-paula/adding-interactivity/Counter';
 
 export default function Home() {
   return (
@@ -19,7 +22,10 @@ export default function Home() {
         </h1>
 
       {/* <Profile /> */}
-      <Gallery />
+      {/* <Gallery /> */}
+      {/* <LightSwitch /> */}
+      <Counter / >
+   
 
       </main>
 
