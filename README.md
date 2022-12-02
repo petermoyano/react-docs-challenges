@@ -9,3 +9,5 @@ _Peter's log:_
 17/11 => Describing de UI: Keeping your components pure.
 18/11 => Adding interactivity: State, a component's memory.
 18/11 => Adding interactivity: Render and commit.
+
+
