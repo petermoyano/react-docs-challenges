@@ -1,8 +1,17 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import Profile from '../react_challenges/describing_ui/Profile';
-import Gallery from '../react_challenges/adding_interactivity/state_comp_memory/Gallery';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Profile from "../react_challenges/describing_ui/Profile";
+//import Gallery from "../react_challenges/adding_interactivity/state_comp_memory/Gallery";
+import List from "../react_challenges_Paula/describing-the-UI/rendering-lists/List";
+import RecipeList from "../react_challenges_Paula/describing-the-UI/rendering-lists/RecipeList";
+import Poem from "../react_challenges_Paula/describing-the-UI/rendering-lists/Poem";
+import Clock from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/Clock";
+import ProfileList from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/ProfileList";
+import CollapseDiv from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/CollapseDiv";
+import StoryTray from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/StoryTray";
+import pGallery from "../react_challenges_Paula/describing-the-UI/state-a-comp-memory/Pgallery";
+import Pgallery from "../react_challenges_Paula/describing-the-UI/state-a-comp-memory/Pgallery";
 
 export default function Home() {
   return (
@@ -18,9 +27,22 @@ export default function Home() {
           Welcome to Chefo's and Peter's React challenges page!
         </h1>
 
-      {/* <Profile /> */}
-      <Gallery />
-
+        {/* <Profile /> */}
+        {/*<Gallery />*/}
+        {/*<List/>*/}
+        {/* <Poem />
+        <RecipeList /> 
+        <Clock /> 
+        <ProfileList />*/}
+        {/* <Clock /> */}
+        {/* <StoryTray
+          stories={[
+            { id: "Mike", label: "story" },
+            { id: "Daniel", label: "story" },
+            { id: "Daiana", label: "story" },
+          ]}
+        /> */}
+        <Pgallery />
       </main>
 
       <footer className={styles.footer}>
@@ -29,12 +51,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
