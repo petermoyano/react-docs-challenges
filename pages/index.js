@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Profile from "../react_challenges/describing_ui/Profile";
-//import Gallery from "../react_challenges/adding_interactivity/state_comp_memory/Gallery";
 import List from "../react_challenges_Paula/describing-the-UI/rendering-lists/List";
 import RecipeList from "../react_challenges_Paula/describing-the-UI/rendering-lists/RecipeList";
 import Poem from "../react_challenges_Paula/describing-the-UI/rendering-lists/Poem";
@@ -10,8 +9,10 @@ import Clock from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure
 import ProfileList from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/ProfileList";
 import CollapseDiv from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/CollapseDiv";
 import StoryTray from "../react_challenges_Paula/describing-the-UI/keeping-comp-pure/StoryTray";
-import pGallery from "../react_challenges_Paula/describing-the-UI/state-a-comp-memory/Pgallery";
 import Pgallery from "../react_challenges_Paula/describing-the-UI/state-a-comp-memory/Pgallery";
+import Scoreboard from "../react_challenges_Paula/describing-the-UI/updating-obj-and-arrays/ScoreBoard";
+import Canvas from "../react_challenges_Paula/describing-the-UI/updating-obj-and-arrays/Canvas";
+
 
 export default function Home() {
   return (
@@ -42,7 +43,9 @@ export default function Home() {
             { id: "Daiana", label: "story" },
           ]}
         /> */}
-        <Pgallery />
+        {/* <Pgallery /> */}
+        {/* <Scoreboard /> */}
+        <Canvas />
       </main>
 
       <footer className={styles.footer}>
