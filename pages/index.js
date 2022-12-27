@@ -13,6 +13,7 @@ import Pgallery from "../react_challenges_Paula/describing-the-UI/state-a-comp-m
 import Scoreboard from "../react_challenges_Paula/describing-the-UI/updating-obj-and-arrays/ScoreBoard";
 import Canvas from "../react_challenges_Paula/describing-the-UI/updating-obj-and-arrays/Canvas";
 import ShoppingCart from "../react_challenges_Paula/describing-the-UI/updating-obj-and-arrays/UpdateArray";
+import TaskApp from "../react_challenges_Paula/describing-the-UI/updating-obj-and-arrays/TaskApp";
 
 
 export default function Home() {
@@ -47,7 +48,8 @@ export default function Home() {
         {/* <Pgallery /> */}
         {/* <Scoreboard /> */}
         {/* <Canvas /> */}
-        <ShoppingCart/>
+        {/* <ShoppingCart/> */}
+        < TaskApp />
       </main>
 
       <footer className={styles.footer}>
